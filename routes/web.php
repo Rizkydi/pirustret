@@ -14,4 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [appController::class, 'appChat']);
+Route::get('/', [appController::class, 'appLanding']);
+
+Route::get('/category' ,[appController::class,'category']);
+
+Route::get('/hotitems' ,[appController::class,'hotitems']);
